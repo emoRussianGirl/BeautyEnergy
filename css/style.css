@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > div{
+    border-bottom: 15px solid white;
+}
+
+main > div{
+    border-bottom: 15px solid white;
+}
+
+.header-wrapper{
+    background-color: #F1C2CF;
+    width: 1500px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    margin: 0px 100%;   
+}
+
+.header-wrapper .logo-item{
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-wrapper .logo-item img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.header-wrapper .header-info{
+    font-size: 50px;
+}
+
+.header-wrapper .header-info .number{
+    font-size: 60px;
+}
+
+.navigation-bar{
+    background-color: #B7B1B1;
+    height: 80px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-bar .nav-element{
+    background-color: #595059;
+    width: 180px;
+    height: 50px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-wrapper{
+    display: flex;
+    width: 1500px;
+}
+
+.about-wrapper .about-img img{
+    width: 500px;
+}
+
+.about-wrapper .about-text{
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.stock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA3560;
+    height: 70px;
+    width: 1500px;
+    font-size: 30px;
+}
+
+.products{
+    width: 1500px;
+}
+
+
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    transition: 1s;
+}
+
+.slider-item {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider-item .playlist {
+    width: 170px;
+    height: 170px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider-item .playlist:hover {
+    box-shadow: inset 0 -30px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.slider-item .playlist .play-music {
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background-color: #FF5500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.slider-item .playlist .play-music img {
+    width: 35px;
+    height: 35px;
+}
+
+.playlist .play-music:hover {
+    background-color: #FF3300;
+    cursor: pointer;
+}
+
+.slider-item-label {
+    width: 170px;
+    margin-top: 7px;
+}
+
+.slider-buttons {
+    border: none;
+    height: 170px;
+    width: 30px;
+    position: absolute;
+    bottom: 59px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.btn-next {
+    right: 0px;
+}
+
+.btn-prev {
+    left: 0px;
+}
+
+.track-artist {
+    color: #999999;
+}
+
+.celebrity-feedback{
+    background-color: #1C1A1F;
+    width: 1500px;
+    height: 300px;
+}
+
+.feedback{
+    background-color: #AA3560;
+    width: 1500px;
+    height: 250px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrapper{
+    display: flex;
+    width: 1500px;
+    height: 250px;
+    background-color: #1C1A1F;
+}
+
+.map{   
+}
