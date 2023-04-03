@@ -15,6 +15,10 @@ main{
     flex-direction: column;
 }
 
+h3{
+    margin-top: 0px;
+}
+
 header > div{
     border-bottom: 15px solid white;
 }
@@ -99,8 +103,6 @@ main > div{
     width: 1500px;
 }
 
-
-
 .slider-container {
     overflow: hidden;
     position: relative;
@@ -112,59 +114,25 @@ main > div{
 }
 
 .slider-item {
-    height: 250px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #F1C2CF;
+    padding: 10px;
 }
 
-.slider-item .playlist {
-    width: 170px;
-    height: 170px;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.slider-item .playlist:hover {
-    box-shadow: inset 0 -30px 20px -10px rgba(0, 0, 0, 0.5);
-}
-
-.slider-item .playlist .play-music {
-    width: 55px;
-    height: 55px;
-    border: none;
-    border-radius: 50%;
-    background-color: #FF5500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-}
-
-.slider-item .playlist .play-music img {
-    width: 35px;
-    height: 35px;
-}
-
-.playlist .play-music:hover {
-    background-color: #FF3300;
-    cursor: pointer;
-}
-
-.slider-item-label {
-    width: 170px;
-    margin-top: 7px;
+.slider-item img{
+    width: 180px;
+    height: 180px;
 }
 
 .slider-buttons {
     border: none;
-    height: 170px;
+    height: 200px;
     width: 30px;
     position: absolute;
-    bottom: 59px;
+    bottom: 0px;
     opacity: 0.7;
     cursor: pointer;
 }
@@ -182,9 +150,24 @@ main > div{
 }
 
 .celebrity-feedback{
+    display: flex;
     background-color: #1C1A1F;
-    width: 1500px;
-    height: 300px;
+    width: 1400px;
+    height: 500px;
+    padding: 50px;
+}
+
+.celebrity-feedback .feedback-text{
+    color: white;
+    font-size: 50px;
+}
+
+.celebrity-feedback .celebrity-image{
+    margin-left: 50px;
+}
+
+.celebrity-feedback .celebrity-image img{
+    height: 500px;
 }
 
 .feedback{

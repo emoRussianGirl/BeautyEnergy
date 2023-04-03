@@ -4,7 +4,7 @@ sliders = [];
 for (let i = 0; i < containers.length; i++){
     sliders[i] = {
         position: 0,
-        slidesToShow: 6.2,
+        slidesToShow: 6,
         slidesToScroll: 4,
         container: containers[i],
         track: containers[i].querySelector(".slider-track"),
@@ -12,8 +12,8 @@ for (let i = 0; i < containers.length; i++){
         btnNext: containers[i].querySelector(".btn-next"),
         items: containers[i].querySelectorAll(".slider-item"),
         itemsCount: containers[i].querySelectorAll(".slider-item").length,
-        itemWidth: (containers[i].clientWidth) / 6.2,
-        movePosition: 4 * ((containers[i].clientWidth) / 6.2),
+        itemWidth: (1250) / 10,
+        movePosition: 4 * ((1250) / 10),
         setPosition(){
             this.track.style.transform = `translateX(${this.position}px)`;
         },
@@ -24,7 +24,7 @@ for (let i = 0; i < containers.length; i++){
     };
     
     sliders[i].items.forEach((item) => {
-        item.style.minWidth = `${sliders[i].itemWidth}px`;
+        //item.style.minWidth = `${sliders[i].itemWidth}px`;
     });
     
     sliders[i].btnNext.addEventListener('click' , () => {
