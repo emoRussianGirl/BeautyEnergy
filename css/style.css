@@ -235,3 +235,7 @@ footer{
     color: white;
     font-size: xx-large;
 }
+
+.cursor-pointer:hover{
+    cursor: pointer;
+}
