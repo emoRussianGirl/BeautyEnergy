@@ -115,8 +115,31 @@ main > div{
 }
 
 .slider-item {
-    background-color: #F1C2CF;
     padding: 10px;
+}
+
+#products-slider .slider-item{
+    background-color: #F1C2CF;
+}
+
+#products-slider .slider-item .item-content button{
+    background-color: #AA3560;
+}
+
+#feedback-slider .slider-item{
+    background-color: #AA3560;
+}
+
+.slider-item .item-content .stars{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.slider-item .item-content .stars img{
+    width: 30px;
+    height: 30px;
 }
 
 .slider-item .item-content{
@@ -134,7 +157,6 @@ main > div{
 }
 
 .slider-item .item-content button{
-    background-color: #AA3560;
     border: none;
     border-radius: 50px;
     width: 120px;
@@ -148,7 +170,7 @@ main > div{
     width: 40px;
     position: absolute;
     bottom: 0px;
-    opacity: 0.7;
+    opacity: 0.4;
     cursor: pointer;
 }
 
@@ -188,7 +210,7 @@ main > div{
 .feedback{
     background-color: #AA3560;
     width: 1500px;
-    height: 250px;
+    height: 300px;
 }
 
 footer{
