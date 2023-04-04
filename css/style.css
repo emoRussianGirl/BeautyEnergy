@@ -109,28 +109,43 @@ main > div{
 }
 
 .slider-track {
+    width: 1500px;
     display: flex;
     transition: 1s;
 }
 
 .slider-item {
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #F1C2CF;
     padding: 10px;
 }
 
-.slider-item img{
-    width: 180px;
-    height: 180px;
+.slider-item .item-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 280px;
+}
+
+.slider-item .item-content img{
+    width: 220px;
+    height: 220px;
+}
+
+.slider-item .item-content button{
+    background-color: #AA3560;
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
 }
 
 .slider-buttons {
     border: none;
-    height: 200px;
-    width: 30px;
+    height: 300px;
+    width: 40px;
     position: absolute;
     bottom: 0px;
     opacity: 0.7;
@@ -196,6 +211,10 @@ footer{
 
 .map img{
     height: 300px;   
+}
+
+.map img:hover{
+    cursor: pointer;
 }
 
 .footer-text{
