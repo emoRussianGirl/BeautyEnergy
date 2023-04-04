@@ -209,14 +209,6 @@ footer{
     margin-right: 25px;
 }
 
-.map img{
-    height: 300px;   
-}
-
-.map img:hover{
-    cursor: pointer;
-}
-
 .footer-text{
     color: white;
     font-size: xx-large;
