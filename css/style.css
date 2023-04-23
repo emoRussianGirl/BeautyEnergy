@@ -164,24 +164,6 @@ main > div{
     margin-top: 10px;
 }
 
-.slider-buttons {
-    border: none;
-    height: 300px;
-    width: 40px;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.4;
-    cursor: pointer;
-}
-
-.btn-next {
-    right: 0px;
-}
-
-.btn-prev {
-    left: 0px;
-}
-
 .track-artist {
     color: #999999;
 }
